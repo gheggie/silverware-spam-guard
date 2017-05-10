@@ -1,5 +1,9 @@
 # SilverWare Spam Guard Module
 
+[![Latest Stable Version](https://poser.pugx.org/silverware/spam-guard/v/stable)](https://packagist.org/packages/silverware/spam-guard)
+[![Latest Unstable Version](https://poser.pugx.org/silverware/spam-guard/v/unstable)](https://packagist.org/packages/silverware/spam-guard)
+[![License](https://poser.pugx.org/silverware/spam-guard/license)](https://packagist.org/packages/silverware/spam-guard)
+
 A form spam protection module for [SilverStripe v4][silverstripe-framework].
 
 ## Contents
