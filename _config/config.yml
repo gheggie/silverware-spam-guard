@@ -1,0 +1,19 @@
+---
+Name: silverware-spam-guard
+---
+
+# Configure Form Extensions:
+
+SilverStripe\Forms\Form:
+  extensions:
+    - SilverWare\SpamGuard\Extensions\FormExtension
+
+# Configure Default Spam Guard:
+
+SilverStripe\Core\Injector\Injector:
+  DefaultSpamGuard:
+    class: SilverWare\SpamGuard\Guards\SimpleSpamGuard
+    properties:
+      name: SimpleGuard
+      title: 'Leave this field empty'
+      timeLimit: 5
