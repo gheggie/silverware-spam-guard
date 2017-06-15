@@ -154,6 +154,8 @@ class SimpleSpamGuardField extends FormField
     /**
      * Renders the field for the template.
      *
+     * @param array $properties
+     *
      * @return DBHTMLText
      */
     public function Field($properties = [])
