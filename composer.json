@@ -1,6 +1,6 @@
 {
   "name": "silverware/spam-guard",
-  "type": "silverstripe-module",
+  "type": "silverstripe-vendormodule",
   "description": "SilverWare Spam Guard Module.",
   "homepage": "https://github.com/praxisnetau/silverware-spam-guard",
   "keywords": [
@@ -31,8 +31,7 @@
   "extra": {
     "branch-alias": {
       "dev-master": "1.0.x-dev"
-    },
-    "installer-name": "silverware-spam-guard"
+    }
   },
   "minimum-stability": "dev",
   "prefer-stable": true
