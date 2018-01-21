@@ -13,7 +13,3 @@ SilverStripe\Forms\Form:
 SilverStripe\Core\Injector\Injector:
   DefaultSpamGuard:
     class: SilverWare\SpamGuard\Guards\SimpleSpamGuard
-    properties:
-      name: SimpleGuard
-      title: 'Leave this field empty'
-      timeLimit: 5
