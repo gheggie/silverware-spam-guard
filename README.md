@@ -40,10 +40,6 @@ SilverStripe dependency injector:
 SilverStripe\Core\Injector\Injector:
   DefaultSpamGuard:
     class: SilverWare\SpamGuard\Guards\SimpleSpamGuard
-    properties:
-      name: SimpleGuard
-      title: 'Leave this field empty'
-      timeLimit: 5
 ```
 
 The default instance `SimpleSpamGuard` uses a honeypot approach for preventing spam, combined with a minimum form
