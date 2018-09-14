@@ -8,6 +8,18 @@ SilverStripe\Forms\Form:
   extensions:
     - SilverWare\SpamGuard\Extensions\FormExtension
 
+# Configure User Form Extensions:
+
+SilverStripe\UserForms\Form\UserForm:
+  extensions:
+    - SilverWare\SpamGuard\Extensions\UserFormExtension
+
+# Configure User Defined Form Extensions:
+
+SilverStripe\UserForms\Model\UserDefinedForm:
+  extensions:
+    - SilverWare\SpamGuard\Extensions\UserDefinedFormExtension
+
 # Configure Default Spam Guard:
 
 SilverStripe\Core\Injector\Injector:
