@@ -1,0 +1,25 @@
+{
+    "name": "praxisnetau/silverware-spam-guard",
+    "description": "Simple spam protector module for default use with SilverWare forms.",
+    "type": "silverstripe-module",
+    "homepage": "https://github.com/praxisnetau/silverware-spam-guard",
+    "keywords": ["silverstripe", "silverware", "spamprotector", "spamprotection"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Colin Tucker",
+            "role": "Developer",
+            "email": "colin@praxis.net.au",
+            "homepage": "http://www.praxis.net.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "silverstripe/framework": "~3.4",
+        "silverstripe/spamprotection": "~2.0"
+    },
+    "extra": {
+        "installer-name": "silverware-spam-guard"
+    },
+    "target-dir": "silverware-spam-guard"
+}
