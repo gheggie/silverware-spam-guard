@@ -19,7 +19,7 @@
         "silverstripe/spamprotection": "~2.0"
     },
     "extra": {
-        "installer-name": "silverware-spam-guard"
+        "installer-name": "silverware-spamprotector"
     },
-    "target-dir": "silverware-spam-guard"
+    "target-dir": "silverware-spamprotector"
 }
