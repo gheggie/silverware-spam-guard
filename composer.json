@@ -1,5 +1,5 @@
 {
-    "name": "praxisnetau/silverware-spam-guard",
+    "name": "silverware/spam-guard",
     "description": "Simple spam protector module for default use with SilverWare forms.",
     "type": "silverstripe-module",
     "homepage": "https://github.com/praxisnetau/silverware-spam-guard",
